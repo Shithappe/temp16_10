@@ -1,0 +1,25 @@
+.question{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5vw;
+    padding: 2vw;
+
+    opacity: 1;
+    transition: all 1s ease-out;
+}
+
+button{
+    margin: 1vw;
+    width: 100%;
+}
+
+.question.hidden {
+    background-color: rgba(0, 128, 0, 0.089);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s, visibility 0s 1s;
+}
+
+#tip{
+    display: none;
+}
