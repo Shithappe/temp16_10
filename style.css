@@ -23,3 +23,17 @@ button{
 #tip{
     display: none;
 }
+
+#tip1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+th, td{
+    padding: 2px;
+}
+
+input{
+    width: 96%;
+}
