@@ -7,8 +7,9 @@ function awd(block){
     
     if (store == 10){
         for (let i = 1; i < 11; i++) document.getElementById(i).hidden = true;
-        console.log("show")
+        console.log("show");
         document.getElementById("tip").style.display = "block";
+        document.getElementById('google').hidden = true;
     }
 }
 
